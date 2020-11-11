@@ -1,0 +1,16 @@
+app.id=
+mch.id=
+
+sign.key=
+
+trade.type=NATIVE
+
+product.name=掌沃商城下单
+
+pay.url=https://api.mch.weixin.qq.com/pay/unifiedorder
+notify.url=https://api.zwmall.chengdongqing.top/order/pay/wechatCallback
+
+cancel.url=https://api.mch.weixin.qq.com/pay/closeorder
+
+refund.url=https://api.mch.weixin.qq.com/secapi/pay/refund
+refund.cert.path=/cert/wechat_cert.p12

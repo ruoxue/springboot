@@ -1,0 +1,15 @@
+# 数据源配置
+mysql.jdbcUrl=jdbc:mysql://127.0.0.1:3306/zwmall?characterEncoding=utf8&useSSL=false&serverTimezone=CTT
+mysql.username=root
+mysql.password=123
+
+# undertow服务器配置
+undertow.devMode=false
+undertow.port=99
+
+# 文件上传基础路径
+upload.path.dev=/Users/ruo/Downloads/
+upload.path.online=/Users/ruo/Downloads/
+
+# 静态文件访问域名
+static.url=https://static.zwmall.chengdongqing.top

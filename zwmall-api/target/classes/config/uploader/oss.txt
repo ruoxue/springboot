@@ -1,0 +1,6 @@
+endpoint=
+
+access.id=
+access.secret=
+
+bucket=

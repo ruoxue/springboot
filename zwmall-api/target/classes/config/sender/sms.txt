@@ -1,0 +1,13 @@
+access.id=
+access.secret=
+
+sign.method=HMAC-SHA1
+sign.version=1.0
+sign.name=
+
+method.name=SendSms
+method.version=2017-05-25
+
+http.url=https://dysmsapi.aliyuncs.com
+
+template.login=

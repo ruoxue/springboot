@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pay-service" />
+        <module name="config-client" />
+        <module name="zuul" />
+        <module name="cloud" />
+        <module name="config-server" />
+        <module name="dao" />
+        <module name="common" />
+        <module name="web" />
+        <module name="service" />
+        <module name="model" />
+        <module name="api" />
+        <module name="feign" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="11" />
+      <module name="cloud" target="11" />
+      <module name="common" target="11" />
+      <module name="config" target="1.8" />
+      <module name="config-client" target="11" />
+      <module name="config-server" target="11" />
+      <module name="dao" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="feign" target="11" />
+      <module name="model" target="11" />
+      <module name="parent" target="11" />
+      <module name="pay-service" target="11" />
+      <module name="ribbon" target="11" />
+      <module name="service" target="11" />
+      <module name="web" target="11" />
+      <module name="zuul" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="cloud" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="dao" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="pay-service" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="web" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

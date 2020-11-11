@@ -1,0 +1,7 @@
+package com.wowotou.dao.impl;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class OrderPayDao  {
+}

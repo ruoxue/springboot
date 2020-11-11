@@ -1,0 +1,5 @@
+email.host=smtp.163.com
+email.port=465
+email.name=掌沃商城
+email.account=
+email.password=

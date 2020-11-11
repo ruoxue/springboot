@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="false"
+	monitoring="autodetect" dynamicConfig="true">
+
+	<!-- 溢出的缓存在磁盘保存的位置 -->
+	<diskStore path="java.io.tmpdir" />
+	
+	<!-- 默认缓存配置 -->
+	<defaultCache 
+		maxEntriesLocalHeap="10000" 
+		eternal="false"
+		timeToIdleSeconds="300" 
+		timeToLiveSeconds="300"
+		diskSpoolBufferSizeMB="30" 
+		maxEntriesLocalDisk="100000"
+		diskExpiryThreadIntervalSeconds="120" 
+		memoryStoreEvictionPolicy="LRU"
+		statistics="false">
+		<persistence strategy="localTempSwap" />
+	</defaultCache>
+
+	<!-- 登录用户 -->
+	<cache 
+		name="loginUser" 
+		maxEntriesLocalHeap="10000"
+		eternal="false" 
+		timeToIdleSeconds="1800" 
+		timeToLiveSeconds="0"
+		overflowToDisk="true" />
+</ehcache>
